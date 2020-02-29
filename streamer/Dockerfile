@@ -5,5 +5,6 @@ RUN apt-get update \
 
 RUN useradd -m vlcuser
 
+EXPOSE 8090
 COPY simulate_video_stream.sh /tmp/
 ENTRYPOINT ["/tmp/simulate_video_stream.sh"]
