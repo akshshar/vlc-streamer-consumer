@@ -18,7 +18,7 @@ Open up a browser window and browse to http://localhost:80 to view the sample vi
 
 ## Bring down the containers
 
-i```
+```
 ./bring_down_topology.sh
 
 ```
